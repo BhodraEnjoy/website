@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         bar.style.setProperty('--percent', percent);
     });
 });
-// Toggle Mobile Menu
+/ Toggle Mobile Menu
 document.querySelector(".menu-toggle").addEventListener("click", function () {
     document.querySelector(".navbar ul").classList.toggle("active");
 });
