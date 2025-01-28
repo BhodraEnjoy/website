@@ -306,7 +306,7 @@ body {
 .menu-toggle {
     display: none;
     background: none;
-    color: white;
+    color: rgb(5, 1, 1);
     font-size: 24px;
     border: none;
     cursor: pointer;
@@ -314,6 +314,7 @@ body {
     top: 15px;
     right: 20px;
 }
+
 
 /* Mobile View */
 @media screen and (max-width: 768px) {
