@@ -6,94 +6,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enjoy Bhodra</title>
     <link rel="stylesheet" href="styles.css">
-       <button class="menu-toggle">☰</button>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experiences">Experiences</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-            <li><a href="#problem-solving">Problem Solving</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#social">Social</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-            <li><a href="#Resume">Resume</a></li>
-        </ul>
-    </nav>
 </head>
 
 <body>
+    <!-- Menu Button -->
+    <button class="menu-toggle">☰</button>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#education">Education</a></li> 
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="Enjoy Bhodra Resume.pdf" download class="download-btn">📄 Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
     <header>
         <div class="container">
             <!-- Profile Image -->
             <div class="profile-pic">
                 <img src="enjoy.jpg" alt="Enjoy's Photo">
             </div>
-            <h1>Hi, I'm Enjoy</h1>
+            <h1>Enjoy Bhodra</h1>
             <p>Software Engineering Student at Jiangsu Normal University, China</p>
-            <a href="#contact" class="btn">Contact Me</a>
         </div>
+
         <!-- Social Media Icons -->
         <div class="social-icons">
+            <a href="https://linkedin.com/in/bhodra-enjoy" target="_blank"><img src="linkdin-icon.png" alt="LinkedIn"></a>
             <a href="https://github.com/BhodraEnjoy" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
-            <a href="https://linkedin.com/in/bhodra-enjoy" target="_blank"><img src="linkdin-icon.png"alt="LinkedIn"></a>
             <a href="mailto:enjoy.bhodra02@gmail.com"><img src="gmsil-icon.png" alt="Email"></a>
             <a href="https://x.com/bhodra_enjoy" target="_blank"><img src="twitter-3-logo-png.png" alt="X"></a>
             <a href="wechat.jpg" target="_blank"><img src="wechatt-icon.png" alt="wechat"></a>
         </div>
     </header>
 
-
+    <!-- About Me Section -->
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>I’m a passionate Software Engineer. I love solving real-world problems using technology, and I'm
-                constantly learning new things. My expertise includes Data Structures and Algorithms, Machine Learning,
-                and Web Development.</p>
+            <p>I am a 2nd-year Bachelor studnet at Jiangu Nomarl University,China.My interest lies in knowledge representation and commonsense reasoning, especially within multilingual and multimodal contexts (encompassing vision, language, and acoustics). I am deeply invested in pushing the boundaries of natural language understanding and generation, focusing on creating models that are not only advanced but also fair, robust, and explainable. My passion also extends to the fusion of Computer Vision, HCI, and NLP to transcend traditional interfaces, enhance societal communication, and deepen our understanding of cognitive processes. </p>
         </div>
     </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skill-container">
-                <div class="skill-card">
-                    <h3>C/C++, Python</h3>
-                    <div class="bar" data-percent="100%"></div>
-                </div>
-                <div class="skill-card">
-                    <h3>Data Structures & Algorithms</h3>
-                    <div class="bar" data-percent="100%"></div>
-                </div>
-                <div class="skill-card">
-                    <h3>Machine Learning</h3>
-                    <div class="bar" data-percent="100%"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Education Section -->
     <section id="education">
         <div class="container">
             <h2>Education</h2>
-
-            <!-- Education Entry 1 -->
             <div class="education-entry">
-                <img src="" alt="Jiangsu Normal Univeristy" class="education-logo">
+                <img src="jiansu-icon.png" alt="Jiangsu Normal University" class="education-logo">
                 <div class="education-details">
-                    <h3>Jiangsu Normal Univeristy</h3>
-                    <p>Bachelor of Engineering Software Engineering</p>
+                    <h3>Jiangsu Normal University</h3>
+                    <p>Bachelor of Engineering in Software Engineering</p>
                     <p>September 2023 - July 2027</p>
                     <p>101, Shanghai Road, Tongshan District, Xuzhou, Jiangsu, China</p>
                 </div>
             </div>
+        </div>
     </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <!-- Skill Categories -->
+                <div class="skills-item">
+                    <h3>Programming & Scripting Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>MySQL</li>
+                        <li>SQLite</li>
+                        <li>C, C++</li>
+                        <li>Java</li>
+                        <li>HTML5, CSS3, JavaScript, Ajax</li>
+                    </ul>
+                </div>
+                <div class="skills-item">
+                    <h3>Frameworks & Libraries</h3>
+                    <ul>
+                        <li>TensorFlow, Keras, PyTorch</li>
+                        <li>Scikit-learn, NumPy, Pandas</li>
+                        <li>Matplotlib, Seaborn</li>
+                        <li>Django Rest Framework</li>
+                        <li>AWS, Rasa</li>
+                    </ul>
+                </div>
+                <div class="skills-item">
+                    <h3>Fields</h3>
+                    <ul>
+                        <li>Machine Learning, Deep Learning</li>
+                        <li>Natural Language Processing</li>
+                        <li>Computer Vision</li>
+                        <li>Data Analysis, Data Science</li>
+                        <li>Web Development, Data Visualization</li>
+                        <li>Quantum Computing</li>
+                    </ul>
+                </div>
+                <div class="skills-item">
+                    <h3>Interpersonal Skills</h3>
+                    <ul>
+                        <li>Teamwork and Collaboration</li>
+                        <li>Leadership, Adaptability</li>
+                        <li>Work Ethic, Problem Solving</li>
+                        <li>Empathy and Understanding, Communication</li>
+                    </ul>
+                </div>
+                <div class="skills-item">
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>GIT, Latex</li>
+                        <li>Web Scraping</li>
+                        <li>ChatGPT, Bing-Chat, Bard, Claude-2</li>
+                    </ul>
+                </div>
+                <div class="skills-item">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Bangla (Native)</li>
+                        <li>English (Fluent)</li>
+                        <li>Chinese (Fluent)</li>
+
+                        <li>Hindi & Urdu (Intermediate)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Area of Interest Section -->
+    <section id="area-of-interest">
+        <div class="container">
+            <h2>Area of Interest</h2>
+            <p>I love to learn more.</p>
+            <div class="interest-grid">
+                <div class="interest-item"><img src="Deep-icon.png" alt="Deep Learning">Deep Learning</div>
+                <div class="interest-item"><img src="Ai-icon.png" alt="Responsible AI">Responsible AI</div>
+                <div class="interest-item"><img src="Computer Vision-icon.png" alt="Computer Vision">Computer Vision</div>
+                <div class="interest-item"><img src="pri-icon.png" alt="Privacy">Privacy</div>
+                <div class="interest-item"><img src="Reinforcement Learning -icon.png" alt="Reinforcement Learning">Reinforcement Learning</div>
+                <div class="interest-item"><img src="NlP-icon.png" alt="NLP">Natural Language Processing</div>
+                <div class="interest-item"><img src="Human-Computer Interaction -icon.png" alt="HCI">Human-Computer Interaction</div>
+                <div class="interest-item"><img src="data science.png" alt="Data Science">Data Science</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
     <section id="projects">
         <div class="container">
             <h2>Projects</h2>
             <div class="project-card">
                 <h3>Project 1: Blog Website</h3>
-                <p>A full-stack blog website built with HTML, CSS, and JavaScript. Includes a responsive design and
-                    interactive features like comments.</p>
+                <p>A full-stack blog website built with HTML, CSS, and JavaScript. Includes a responsive design and interactive features like comments.</p>
                 <a href="https://github.com/your-github-repo" target="_blank" class="btn">View Code</a>
             </div>
             <div class="project-card">
@@ -103,28 +170,33 @@
             </div>
         </div>
     </section>
+    
 
+    <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you want to hire me or have other queries, feel free to reach out. I try to reply within 24 hours.</p>
-        <!-- Social Media Icons -->
-        <div class="social-icons">
-            <a href="https://github.com/BhodraEnjoy" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
-            <a href="https://linkedin.com/in/bhodra-enjoy" target="_blank"><img src="linkdin-icon.png"alt="LinkedIn"></a>
-            <a href="mailto:enjoy.bhodra02@gmail.com"><img src="gmsil-icon.png" alt="Email"></a>
-            <a href="https://x.com/bhodra_enjoy" target="_blank"><img src="twitter-3-logo-png.png" alt="X"></a>
-            <a href="wechat.jpg" target="_blank"><img src="wechatt-icon.png" alt="wechat"></a>
+            <h2>Let’s Talk Contact Me</h2>
+            <p>If you want to hire me or have other queries, feel free to reach out.  I’ll be happy to answer your questions</p>
+
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://github.com/BhodraEnjoy" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+                <a href="https://linkedin.com/in/bhodra-enjoy" target="_blank"><img src="linkdin-icon.png" alt="LinkedIn"></a>
+                <a href="mailto:enjoy.bhodra02@gmail.com"><img src="gmsil-icon.png" alt="Email"></a>
+                <a href="https://x.com/bhodra_enjoy" target="_blank"><img src="twitter-3-logo-png.png" alt="X"></a>
+                <a href="wechat.jpg" target="_blank"><img src="wechatt-icon.png" alt="wechat"></a>
+            </div>
         </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <p>Arigato gozaimasu for visiting my portfolio.</p>
     </footer>
-     <!-- 🔼 Scroll to Top Button -->
-<button onclick="scrollToTop()" class="scroll-btn up-btn">⬆</button>
 
-<!-- 🔽 Scroll to Bottom Button -->
-<button onclick="scrollToBottom()" class="scroll-btn down-btn">⬇</button>
-
+    <!-- Scroll Buttons -->
+    <button onclick="scrollToTop()" class="scroll-btn up-btn">⬆</button>
+    <button onclick="scrollToBottom()" class="scroll-btn down-btn">⬇</button>
 
     <script src="script.js"></script>
 </body>
