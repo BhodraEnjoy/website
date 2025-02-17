@@ -1,13 +1,13 @@
 // Skill Bar Animation
 document.addEventListener("DOMContentLoaded", () => {
     const skillBars = document.querySelectorAll('.bar');
-    
+
     skillBars.forEach(bar => {
         const percent = bar.getAttribute('data-percent');
         bar.style.setProperty('--percent', percent);
     });
 });
-/ Toggle Mobile Menu
+// Toggle Mobile Menu
 document.querySelector(".menu-toggle").addEventListener("click", function () {
     document.querySelector(".navbar ul").classList.toggle("active");
 });
@@ -38,3 +38,30 @@ function scrollToTop() {
 function scrollToBottom() {
     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const interestItems = document.querySelectorAll(".interest-item");
+
+    interestItems.forEach(item => {
+        // Hover effect to highlight the item
+        item.addEventListener("mouseenter", () => {
+            item.style.transform = "translateY(-5px)";
+            item.style.boxShadow = "4px 4px 15px rgba(0, 0, 255, 0.2)";
+        });
+
+        item.addEventListener("mouseleave", () => {
+            item.style.transform = "translateY(0)";
+            item.style.boxShadow = "2px 2px 10px rgba(0, 0, 0, 0.1)";
+        });
+
+        // Click effect to change background color briefly
+        item.addEventListener("click", () => {
+            item.style.backgroundColor = "#007bff";
+            item.style.color = "#fff";
+
+            setTimeout(() => {
+                item.style.backgroundColor = "#fff";
+                item.style.color = "#333";
+            }, 300); // Reset after 300ms
+        });
+    });
+});
