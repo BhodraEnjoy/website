@@ -7,10 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
         bar.style.setProperty('--percent', percent);
     });
 });
+
 // Toggle Mobile Menu
 document.querySelector(".menu-toggle").addEventListener("click", function () {
     document.querySelector(".navbar ul").classList.toggle("active");
 });
+
 // Show buttons when scrolling
 window.onscroll = function () {
     let upBtn = document.querySelector(".up-btn");
@@ -38,6 +40,7 @@ function scrollToTop() {
 function scrollToBottom() {
     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
 }
+
 document.addEventListener("DOMContentLoaded", function () {
     const interestItems = document.querySelectorAll(".interest-item");
 
@@ -61,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
             setTimeout(() => {
                 item.style.backgroundColor = "#fff";
                 item.style.color = "#333";
-            }, 300); // Reset after 300ms
+            }, 300);
         });
     });
 });
